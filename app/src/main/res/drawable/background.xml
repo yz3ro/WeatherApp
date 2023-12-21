@@ -5,6 +5,9 @@
     <gradient
         android:startColor="#536976"
         android:endColor="#292E49"
-        android:angle="45" /> <!-- İstediğiniz açıyı belirleyebilirsiniz -->
+        android:angle="45"
+
+        /> <!-- İstediğiniz açıyı belirleyebilirsiniz -->
+
 
 </shape>
