@@ -6,7 +6,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-// WeatherService.kt
+
 interface WeatherService {
     @GET("weather")
     suspend fun getWeatherByLocation(

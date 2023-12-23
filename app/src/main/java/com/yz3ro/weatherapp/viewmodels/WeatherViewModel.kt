@@ -10,7 +10,6 @@ import com.yz3ro.weatherapp.model.WeatherResponse
 import kotlinx.coroutines.launch
 
 
-// WeatherViewModel.kt
 class WeatherViewModel(private val repository: WeatherRepository) : ViewModel() {
 
     private val _weather = MutableLiveData<WeatherResponse>()
@@ -23,7 +22,6 @@ class WeatherViewModel(private val repository: WeatherRepository) : ViewModel() 
                 val response = repository.getWeather(lat, lon, apiKey)
                 _weather.value = response
             } catch (e: Exception) {
-                // Handle exception
             }
         }
     }

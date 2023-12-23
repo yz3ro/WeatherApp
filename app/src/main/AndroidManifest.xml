@@ -19,8 +19,7 @@
             android:name=".activities.MainActivity"
             android:exported="false" />
         <activity
-            android:screenOrientation="fullSensor"
-            android:name=".activities.SplashActivity"
+            android:name=".splash.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
